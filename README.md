@@ -3,4 +3,4 @@
 First site.
 *************
 Flexbox model.
-Animate.css, wow.js libray
+Animate.css, wow.js lib
