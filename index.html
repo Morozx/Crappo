@@ -40,7 +40,7 @@
 		/>
 		<link rel="manifest" href="img/icon/site.webmanifest" />
 		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/styles.min.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body class="body">
 		<header class="header">
@@ -48,16 +48,22 @@
 				<a href="https://morozx.github.io/Crappo/" class="logo-container__svg">
 					<img src="img/Logo2.svg" alt="logo" />
 				</a>
-				<nav class="nav">
-					<a href="#" class="nav__link">Products</a>
-					<a href="#" class="nav__link">Features</a>
-					<a href="#" class="nav__link">About</a>
-					<a href="#" class="nav__link">Contact</a>
-				</nav>
+				<div class="nav-wrapper">
+					<nav class="nav" id="nav">
+						<a href="#" class="nav__link">Products</a>
+						<a href="#" class="nav__link">Features</a>
+						<a href="#" class="nav__link">About</a>
+						<a href="#" class="nav__link">Contact</a>
+					</nav>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
 				<div class="buttons">
 					<a class="buttons__sign-in" href="#">Login</a>
 					<div class="divider"></div>
 					<a class="buttons__sign-up" href="#">Register</a>
+					<div class="popup-menu" id="popup-menu"></div>
 				</div>
 			</div>
 		</header>
